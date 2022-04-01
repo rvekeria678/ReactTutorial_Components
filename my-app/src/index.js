@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import NavigationBar from "./NavigationBar"
 import GoogleMaps from "./GoogleMaps"
 import HomeDescription from "./HomeDescription"
+import Card from "./Card"
 
 function App () {
     return (
@@ -16,6 +17,11 @@ function App () {
                     <div className="col-md-6 col-sm-12">
                         <HomeDescription />
                     </div>
+                </div>
+                <div className="row">
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
             </div>
         </div>
